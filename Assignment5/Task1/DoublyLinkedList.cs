@@ -59,7 +59,7 @@ namespace Assignment5.Task1
 			}
 		}
 
-		public void indexof(int value)
+		public void indexOf(int value)
 		{
 			tail.next = new Node(value, null, tail);
 			tail = tail.next;
@@ -168,7 +168,7 @@ namespace Assignment5.Task1
 			return tmp;
 		}
 
-        public int remove()
+		public int remove()
 		{
 			int count = 0;
 			Node temp = head;

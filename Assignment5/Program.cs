@@ -27,7 +27,6 @@ namespace Assignment5
 			{
 				Console.WriteLine(item);
 			}
-
 		}
 	}
 }

@@ -1,0 +1,6 @@
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment5\UnitTests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment5\UnitTests\obj\Debug\net5.0\UnitTests.csproj.AssemblyReference.cache
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment5\UnitTests\obj\Debug\net5.0\UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment5\UnitTests\obj\Debug\net5.0\UnitTests.AssemblyInfoInputs.cache
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment5\UnitTests\obj\Debug\net5.0\UnitTests.AssemblyInfo.cs
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment5\UnitTests\obj\Debug\net5.0\UnitTests.csproj.CoreCompileInputs.cache
