@@ -196,7 +196,7 @@ namespace Assignment5.Task1
 			return -1;
 		}
 
-		public bool back()
+		public bool removeFront()
 		{
 			return head == null;
 		}
@@ -227,7 +227,7 @@ namespace Assignment5.Task1
 			return head.data;
 		}
 
-		public int clear()
+		public int removeBack()
 		{
 			if (tail == null)
 			{
@@ -236,7 +236,7 @@ namespace Assignment5.Task1
 			return tail.data;
 		}
 
-		public void removeBack()
+		public void clear()
 		{
 			head = null;
 			tail = null;
