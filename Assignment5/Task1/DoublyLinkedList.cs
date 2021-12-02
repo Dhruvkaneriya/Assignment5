@@ -50,7 +50,7 @@ namespace Assignment5.Task1
 		private Node head; // Start of the list
 		private Node tail; // End of the list
 
-		public void m1(int value)
+		public void front(int value)
 		{
 			head = new Node(value, head);
 			if (tail == null)
@@ -59,7 +59,7 @@ namespace Assignment5.Task1
 			}
 		}
 
-		public void m2(int value)
+		public void indexof(int value)
 		{
 			tail.next = new Node(value, null, tail);
 			tail = tail.next;
@@ -69,7 +69,7 @@ namespace Assignment5.Task1
 			}
 		}
 
-		public int m3()
+		public int add()
 		{
 			if (head == null)
 			{
@@ -88,7 +88,7 @@ namespace Assignment5.Task1
 			return temp;
 		}
 
-		public int m4()
+		public int empty()
 		{
 			if (tail == null)
 			{
@@ -107,7 +107,7 @@ namespace Assignment5.Task1
 			return temp;
 		}
 
-		public void m5(int value, int index)
+		public void get(int value, int index)
 		{
 			int numElems = size();
 			if (index < 0 || index >= numElems)
@@ -135,7 +135,7 @@ namespace Assignment5.Task1
 			}
 		}
 
-		public int m6(int index)
+		public int addFront(int index)
 		{
 			int numElems = size();
 			if (index < 0 || index >= numElems)
@@ -144,7 +144,7 @@ namespace Assignment5.Task1
 			}
 			if (index == 0)
 			{
-				return removeFront();
+				return removeFront(index);
 			}
 			if (index == numElems - 1)
 			{
@@ -168,7 +168,7 @@ namespace Assignment5.Task1
 			return tmp;
 		}
 
-		public int m7()
+        public int remove()
 		{
 			int count = 0;
 			Node temp = head;
@@ -180,7 +180,7 @@ namespace Assignment5.Task1
 			return count;
 		}
 
-		public int m8(int value)
+		public int addBack(int value)
 		{
 			Node temp = head;
 			int idx = 0;
@@ -196,12 +196,12 @@ namespace Assignment5.Task1
 			return -1;
 		}
 
-		public bool m9()
+		public bool back()
 		{
 			return head == null;
 		}
 
-		public int m10(int index)
+		public int removeFront(int index)
 		{
 			if (index < 0 || index >= size())
 			{
@@ -218,7 +218,7 @@ namespace Assignment5.Task1
 			return temp.data;
 		}
 
-		public int m11()
+		public int size()
 		{
 			if (head == null)
 			{
@@ -227,7 +227,7 @@ namespace Assignment5.Task1
 			return head.data;
 		}
 
-		public int m12()
+		public int clear()
 		{
 			if (tail == null)
 			{
@@ -236,7 +236,7 @@ namespace Assignment5.Task1
 			return tail.data;
 		}
 
-		public void m13()
+		public void removeBack()
 		{
 			head = null;
 			tail = null;
